@@ -1,0 +1,313 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Oswald:wght@400;500;600&family=Poppins:wght@300;400;500;600;700;800&family=Rubik:wght@300;400;500;600&display=swap');
+
+.navbar-brand{
+    
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #9333EA;
+    text-decoration: none;
+    
+
+}
+.nav-item{
+    padding: 0 10px 0 10px ;
+}
+.nav-change{
+    margin: 0 120px 0 120px ;
+}
+.sign-btn{
+  list-style: none;
+}
+.btn{
+    color: black;
+    padding: 14px 40px 14px 40px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24.3px;
+    letter-spacing: .3px;
+
+}
+
+button.active{
+  background-color:  #9333EA !important;
+  color: white !important;
+  border: none;
+}
+.btn-border{
+  border: 2px solid #9333EA ;
+  color: #9333EA;
+}
+.btn:hover{
+    background-color: #9333EA;
+    color: white;
+    transition-duration: .5s;
+    
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24.3px;
+    letter-spacing: .3px;
+
+}
+h1{
+  font-weight: 700;
+}
+a{
+    position: relative;
+    color: #000 !important;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
+  a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #9333EA;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  a:hover::before {
+    transform: scaleX(1);
+  }
+  /*------ Home --------*/
+  .header-image{
+      display: block;
+      
+      
+  }
+  .rectangle-2 {
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 40px 0 0 50px;
+        
+  }
+  .rectangle-1{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 20px 0 -90px 0;
+    
+    
+    
+  }
+  .header h1{
+    
+    width: 680px;
+    height: 220px;
+    font-size: 64px;
+    font-family: sans-serif;
+    margin-top: 100px;
+    
+   
+
+  }
+  .Group_6 img{
+    margin-left: 30px;
+    position: static;
+  }
+  .Customer{
+    margin-top: 50px;
+  }
+  .arrow-line {
+       margin: -180px 10px 0 -80px;
+  }
+  /*-----Benefit section started ------- */
+  .Benefits-1{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+  }
+
+  .benefit-header{
+      display: block;
+      margin-top: 150px;
+      align-items: center;
+  }
+  .benefit-header h6{
+    color: #9333EA;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+  }
+  .benefit-header h1{
+    text-align: center;
+    
+  }
+  .Object{
+    margin-top: 100px;
+    margin-left: -105px;
+    
+  }
+  .Benefits-2{
+      margin: 50px 0px 50px 0px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .card{
+    
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  }
+  .card-body h5{
+       font-size: 18px;
+       font-weight: 500;
+       line-height: 24px;
+       padding-bottom: 10px;
+       color: #9333EA;
+
+  }
+
+  .card-1{
+    border-top: 4px solid #9333EA ;
+  }
+  .card-2{
+    border-top: 4px solid #FF0069;
+  }
+  .card-3{
+    border-top: 4px solid #FFA800;
+  }
+  .card-4{
+    border-top: 4px solid #00FF47;
+  }
+  .card-1 i {
+    background-color: #9333EA;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  .card-2 i {
+    background-color: #FF0069;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  .card-3 i {
+    background-color: #FFA800;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  .card-4 i {
+    background-color: #00FF47;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  /*------------About start------------*/
+  .Group_7{
+    margin-left: 90px;
+  }
+  .about{
+    margin: 190px 55px 0 20px;
+  }
+  .about h5{
+       font-size: 18px;
+       font-weight: 500;
+       line-height: 24px;
+       padding-bottom: 10px;
+       color: #9333EA;
+
+  }
+  .course-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .course-header h6{
+    font-size: 18px;
+       font-weight: 500;
+       line-height: 24px;
+       padding-bottom: 10px;
+       color: #9333EA;
+  }
+  .course-object{
+    margin: -50px -58px 0 440px;
+  }
+  .course-header p {
+    text-align: center;
+  }
+  .course-card {
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Course-btn1{
+    background-color: #009ac6;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    border-style: none;
+    
+
+  }
+  .Course-btn2{
+    background-color: #ff4564;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    border-style: none;
+   
+    
+
+  }
+  .Course-btn3{
+    background-color: #ffba07;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    border-style: none;
+    
+    
+
+  }
+  .card-img-top {
+    padding: 18px 18px;
+  }
+  
+  .card .card-title{
+    color: black;
+  }
+  .category-list ul{
+    list-style: none;
+  }
+  .category-list li{
+    display: inline-block;
+  }
+  
+  
+
+
+  
+
